@@ -39,30 +39,30 @@ The project is structured as follows:
    git clone https://github.com/your-username/full-stack-project.git
 
 2. Navigate to the project directory:
+  
+  ```bash
+  cd full-stack-project
+  ```
 
-```bash
-cd full-stack-project
-```
-
-##Set up the backend:
-
-```bash
-
-cd app
-python -m venv venv  # Create a virtual environment (optional)
-source venv/bin/activate  # Activate virtual environment (Linux/Mac)
-venv\Scripts\activate  # Activate virtual environment (Windows)
-pip install -r requirements.txt  # Install Python dependencies
-python run.py  # Run the Flask backend
-```
-##Set up the frontend:
-
-```bash
-cd frontend
-npm install  # Install frontend dependencies
-npm start  # Run the React frontend
-```
-##Access the application:
+3.Set up the backend:
+  
+  ```bash
+  
+  cd app
+  python -m venv venv  # Create a virtual environment (optional)
+  source venv/bin/activate  # Activate virtual environment (Linux/Mac)
+  venv\Scripts\activate  # Activate virtual environment (Windows)
+  pip install -r requirements.txt  # Install Python dependencies
+  python run.py  # Run the Flask backend
+  ```
+4.Set up the frontend:
+  
+  ```bash
+  cd frontend
+  npm install  # Install frontend dependencies
+  npm start  # Run the React frontend
+  ```
+5.Access the application:
 
 Backend: http://localhost:5000
 Frontend: http://localhost:3000
