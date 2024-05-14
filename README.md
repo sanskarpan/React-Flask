@@ -42,7 +42,7 @@ The project is structured as follows:
 2. Navigate to the project directory:
   
   ```bash
-  cd full-stack-project
+  cd React-andFlask
   ```
 
 3.Set up the backend:
